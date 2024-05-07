@@ -1,0 +1,123 @@
+{
+  "ES": {
+
+    "LAYOUTS": {
+      "HEAD": {
+        "lang_html_code": "es",
+        "descrip_txt" : "Información turística sobre Granada. Sitio web no-oficial.",
+        "keywords_txt" : "ciudad, Granada, turismo"
+      },
+
+      "HEADER": {
+        "title_txt": "Marinella Cooking Festival",
+        "subtitle_txt": "Fictional website of a cooking festival. For testing and educational purposes.",
+        "NAV_main": {
+          "items": [
+            {
+              "label_txt": "Inicio",
+              "fontawesome": "fa-solid fa-house",
+              "link": "home"
+            },
+            {
+              "label_txt": "Los mejores chefs",
+              "fontawesome": "fa-solid fa-trophy",
+              "link": "chefs"
+            },
+            {
+              "label_txt": "Descubre el festival",
+              "fontawesome": "fa-solid fa-info",
+              "link": "discover"
+            },
+            {
+              "label_txt": "¡Apúntate!",
+              "fontawesome": "fa-solid fa-person-running",
+              "link": "subscribe"
+            }
+          ]
+        },
+        "NAV_aux": {
+          "items": [
+            {
+              "label_txt": "INICIO",
+              "fontawesome": "fa-house fa-solid",
+              "link": "#locations"
+            },
+            {
+              "label_txt": "Contacto",
+              "fontawesome": "fa-calendar-days fa-regular",
+              "link": "#events"
+            }
+          ]
+        }
+      },
+      "FOOTER": {
+        "external_links": {
+
+        }
+      }
+    },
+
+    "PAGES": {
+      "CHEFS": {
+        "label": "chefs",
+        "title_txt": "Lugares de interés",
+        "CARD": [
+          {
+            "title_txt": "Carlos Cordero",
+            "descrip_txt": "Maestro del asado, Carlos deleita con su técnica refinada y un toque personal que convierte cada plato en una experiencia culinaria única. Es célebre por su \"Cordero al carbón con aroma de romero\", un festín para los sentidos que encanta a todos los comensales.",
+            "PHOTO": [{
+              "file": "chefs_carlos_cordero",
+              "alt_txt": "Retrato de Carlos Cordero",
+              "caption_txt": null
+            }]
+          },
+          {
+            "title_txt": "Leila Lechuga",
+            "descrip_txt": "Especialista en ensaladas, Leila convierte verduras comunes en obras de arte minimalistas. Admirada por su innovador plato, \"Espirales de aire con esencia de lechuga\", ha demostrado que menos realmente puede ser más en la alta cocina.",
+            "PHOTO": [{
+            "file": "chefs_leila_lechuga",
+            "alt_txt": "Retrato de Leila Lechuga",
+            "caption_txt": null
+            }]
+          },
+          {
+            "title_txt": "Pedro Picante",
+            "descrip_txt": "Con un amor ardiente por los sabores intensos, Pedro es un virtuoso de los platos picantes. Su famoso \"Chili de fuego celestial\" es una explosión de sabor que promete una experiencia vibrante y memorable para los valientes comensales.",
+            "PHOTO": [{
+            "file": "chefs_pedro_picante",
+            "alt_txt": "Retrato de Pedro Picante",
+            "caption_txt": null
+            }]
+          },
+          {
+            "title_txt": "Rafa Rico",
+            "descrip_txt": "Rafa es un innovador de la cocina mediterránea, mezclando sabores tradicionales con técnicas modernas. Su famoso \"Risotto de mariscos al aroma de azafrán\" es aclamado por críticos y comensales por igual, ofreciendo un viaje gustativo por el Mediterráneo en cada bocado.",
+            "PHOTO": [{
+            "file": "chefs_rafa_rico",
+            "alt_txt": "Retrato de Rafa Rico",
+            "caption_txt": null
+            }]
+          },
+          {
+            "title_txt": "María Manteca",
+            "descrip_txt": "María es una artista de la repostería, famosa por sus innovadoras tartas y pasteles que combinan sabores inesperados con una presentación exquisita. Su \"Tarta de queso y limón con mermelada de higo\" es una delicia que ha ganado varios premios, conquistando paladares con su equilibrio perfecto de dulzura y acidez.",
+            "PHOTO": [{
+            "file": "chefs_maria_manteca",
+            "alt_txt": "Retrato de María Manteca",
+            "caption_txt": null
+            }]
+          },
+          {
+            "title_txt": "Petra Pimienta",
+            "descrip_txt": "Petra es conocida por su audacia en la cocina, mezclando especias y sabores de manera magistral. Su especialidad, \"Curry de pollo con cinco pimientas\", es un plato vibrante que despierta todos los sentidos, ofreciendo un verdadero espectáculo gastronómico que ha recibido elogios por su innovación y sabor.",
+            "PHOTO": [{
+            "file": "chefs_petra_pimienta",
+            "alt_txt": "Retrato de Petra Pimienta",
+            "caption_txt": null
+            }]
+          }
+        ]
+      }
+    }
+  }
+}

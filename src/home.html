@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{LAYOUTS.HEAD.lang_html_code}}">
+<include src="layouts/head.html"></include>
+<body>
+    <include src="layouts/header.html"></include>
+
+    <main class="main-layout home-page">
+    <!-- PAGE CONTENT STARTS HERE -->
+    <!-- ------------------------------------------------------------------- -->
+
+        <include src="modules/banner.html"></include>
+
+        <section class="main-layout__locations">
+            <h1 class="main-layout__locations__section_title">{{{PAGES.HOME.locations.title_txt}}}</h1>
+
+            <div class="main-layout__locations__cards-group">
+                <each loop="card, index in PAGES.HOME.locations.CARD">
+                    <include src="modules/card.html"></include>
+                </each>
+            </div>
+        </section>
+
+        <section class="main-layout__events">
+            <h1 class="main-layout__events__section_title">{{{PAGES.HOME.events.title_txt}}}</h1>
+
+            <div class="main-layout__events__cards-group">
+                <each loop="card, index in PAGES.HOME.events.CARD">
+                    <include src="modules/card.html"></include>
+                </each>
+            </div>
+        </section>
+
+        <section class="main-layout__gastronomy">
+            <h1 class="main-layout__gastronomy__section_title">{{{PAGES.HOME.gastronomy.title_txt}}}</h1>
+
+            <div class="main-layout__gastronomy__cards-group">
+                <each loop="card, index in PAGES.HOME.gastronomy.CARD">
+                    <include src="modules/card.html"></include>
+                </each>
+            </div>
+        </section>
+
+        <section class="main-layout__history">
+            <h1 class="main-layout__history__section_title">{{{PAGES.HOME.history.title_txt}}}</h1>
+
+            <div class="main-layout__history__cards-group">
+                <each loop="card, index in PAGES.HOME.history.CARD">
+                    <include src="modules/card.html"></include>
+                </each>
+            </div>
+        </section>
+
+
+        <!-- ------------------------------------------------------------------- -->
+    <!-- PAGE CONTENT ENDS HERE -->
+    </main>
+    <include src="layouts/footer.html"></include>
+</body>
+</html>

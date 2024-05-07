@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{LAYOUTS.HEAD.lang_html_code}}">
+<include src="layouts/head.html"></include>
+<body>
+    <include src="layouts/header.html"></include>
+
+    <main class="main-layout chefs-page">
+    <!-- PAGE CONTENT STARTS HERE -->
+    <!-- ------------------------------------------------------------------- -->
+
+        <section class="chefs-page__chefs">
+            <h1 class="chefs-page__chefs__section_title">{{{PAGES.CHEFS.title_txt}}}</h1>
+            <div class="chefs-page__chefs__cards-group">
+                <each loop="card, index in PAGES.CHEFS.CARD">
+                    <include src="modules/card.html"></include>
+                </each>
+            </div>
+        </section>
+
+    <!-- ------------------------------------------------------------------- -->
+    <!-- PAGE CONTENT ENDS HERE -->
+    </main>
+    <include src="layouts/footer.html"></include>
+</body>
+</html>
