@@ -9,7 +9,7 @@ const medidasMaximas = [640, 1280, 2560];
 // Asegura que el directorio de salida existe
 fs.mkdirSync(outputDir, { recursive: true });
 
-function optimizeImages() {
+function generateImages() {
   fs.readdir(galleryDir, (err, files) => {
     if (err) {
       console.error("Error al leer el directorio de la galería:", err);
@@ -79,4 +79,4 @@ function optimizeOneImage(filePath) {
   });
 }
 
-optimizeImages();
+generateImages();

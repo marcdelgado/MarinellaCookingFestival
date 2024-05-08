@@ -1,28 +1,32 @@
 <footer class="footer-layout">
-    <div class="footer-layout__left-box">
-        <p>sdvdgdsfhgsdddddddddddddddddddfhds</p>
-        <p>sdvdgdsfhgsdfhds</p>
-        <p>sdvdgdsfhgsdfhds</p>
-    </div>
-    <div class="footer-layout__right-box">
-        <p>sdvdgdsfhgsdfhds</p>
-        <p>sdvdgdsfhgsdfhds</p>
-        <p>sdvdgdsfhgsdfhds</p>
-    </div>
-    <form name="contact" netlify>
-        <p>
-            <label>Name <input type="text" name="name" /></label>
-        </p>
-        <p>
-            <label>Email <input type="email" name="email" /></label>
-        </p>
-        <p>
-            <button type="submit">Send</button>
-        </p>
-    </form>
-    <div class="footer-layout__copyright-box">
-        <p>CopyRight</p>
+
+   <div class="footer-layout__contact">
+       <div class="footer-layout__contact__left-side">
+           <form name="MCF_subscription" netlify>
+               <label for="name">Nombre:</label><br>
+               <input type="text" id="name" name="name" value="John"><br>
+               <label for="surname">Apellidos:</label><br>
+               <input type="text" id="surname" name="surname" value="Doe"><br><br>
+               <button type="submit">Enviar</button>
+           </form>
+       </div>
+
+       <div class="footer-layout__contact__right-side">
+           <p>Diseñado por Marc Delgado Bonet | </p>
+           <p>Trabajo académico para la Universitat Oberta de Catalunya</p>
+       </div>
+   </div>
+
+
+    <div class="footer-layout__menu">
+        <div class="footer-layout__main-header__title-box">
+            <h1 class="footer-layout__main-header__title-box__title">{{LAYOUTS.HEADER.title_txt}}</h1>
+        </div>
+        <div class="footer-layout__menu__menu-box">
+            <each loop="navitem, key in LAYOUTS.HEADER.NAV_main">
+                    <include src="modules/main-menu.html"></include>
+            </each>
+        </div>
     </div>
 </footer>
 
-<!-- MAIN SCRIPTS - NOT TOUCH -->

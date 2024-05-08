@@ -8,6 +8,7 @@
 
 /* External fonts and styles */
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/swiper/swiper";
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
 /* SMACSS Schema -  https://smacss.com/book/categorizing/ */
@@ -21,7 +22,9 @@
 @import "layouts/footer-layout";
 
 /* PAGES */
-@import "pages/chefs";
+@import "pages/home-page";
+@import "pages/chefs-page";
+@import "pages/year2023-page";
 
 /* MODULES */
 @import "modules/photo";

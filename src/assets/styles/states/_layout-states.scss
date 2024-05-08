@@ -40,9 +40,8 @@ body{
 /* --- Header layout - desktop only --------------------------------------- */
 
 @media screen and (orientation: landscape) and (min-width: $media-width-transition) {
-  .header-layout.header-layout--fixed::after{
-    border-bottom: 1px solid $header-secondary-color;
-    opacity: 1;
+  .remove-this-selector--state{
+    color: gray;
   }
 }
 

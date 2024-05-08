@@ -39,7 +39,7 @@
 /* Overwrite mobile styles here. */
 
 @media screen and (orientation: landscape) and (width >= $media-width-transition) {
-  .anything{
-    color: gray;
+  .photo-module{
+    display: block;
   }
 }

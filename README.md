@@ -1,2 +1,2 @@
-# Marinella
-Static website with tourist information about the city of Granada, Spain.
+# Marinella Cooking Festival
+Static fake website about Marinella Cooking Festival, Spain.

@@ -29,9 +29,9 @@
               "link": "discover"
             },
             {
-              "label_txt": "¡Apúntate!",
-              "fontawesome": "fa-solid fa-person-running",
-              "link": "subscribe"
+              "label_txt": "Galería 2023",
+              "fontawesome": "fa-solid fa-images",
+              "link": "year2023"
             }
           ]
         },
