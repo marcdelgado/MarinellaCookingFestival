@@ -9,16 +9,9 @@
   /* Mobile and common styles. Desktop overwrites below. */
 
   .footer-layout{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: $header-mobile-bar-thickness;
-
     &__contact{
       display: flex;
-      flex-direction: column;
-      row-gap: 20px;
+      flex-direction: row;
       place-content: space-between space-between;
       align-items: center;
       max-width: $desktop-fixed-width;

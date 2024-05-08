@@ -7,6 +7,9 @@
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
         background-image: url("../../assets/images/gallery/banner_2560.webp");
+        height: calc(0.57 * 1200px);
+        color: white;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
       }
 
       .merged-row1 {
@@ -27,6 +30,66 @@
 
       .normal-cell {
         padding: 10px;
+      }
+
+      h1{
+        font-size: 6rem;
+        font-weight: bolder;
+        text-shadow: 20px 20px 20px rgba(0, 0, 0, 1);
+      }
+
+      h2{
+        font-size: 2rem;
+        font-weight: normal;
+        text-align: right;
+        text-shadow: 20px 20px 20px rgba(0, 0, 0, 1);
+      }
+    }
+  }
+
+  .home-page {
+    @supports not (display: grid) {
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-image: url("../../assets/images/gallery/banner_2560.webp");
+        height: calc(0.57 * 1200px);
+        color: white;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+      }
+
+      .merged-row1, .merged-row2 {
+        flex-basis: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+
+      .merged-row1 {
+        justify-content: flex-start;
+      }
+
+      .merged-row2 {
+        justify-content: flex-end;
+      }
+
+      .normal-cell {
+        flex-basis: calc(33.333% - 20px);
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 6rem;
+        font-weight: bolder;
+        text-shadow: 20px 20px 20px rgba(0, 0, 0, 1);
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: normal;
+        text-align: right;
+        text-shadow: 20px 20px 20px rgba(0, 0, 0, 1);
       }
     }
   }
