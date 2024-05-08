@@ -71,4 +71,38 @@
       }
     }
   }
+
+
+  .footer-layout {
+    &__menu {
+      &__menu-box {
+        nav {
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          float: right;
+
+          ul {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            height: 100%;
+            margin: 0;
+            list-style-type: none;
+          }
+
+          li {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.2em 0 0.2em 40px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+
 }

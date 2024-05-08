@@ -4,13 +4,13 @@
     "LAYOUTS": {
       "HEAD": {
         "lang_html_code": "es",
-        "descrip_txt" : "Información turística sobre Granada. Sitio web no-oficial.",
-        "keywords_txt" : "ciudad, Granada, turismo"
+        "descrip_txt" : "Información sobre el Festival de Cocina de Marinella.",
+        "keywords_txt" : "Marinella, concurso, cocina"
       },
 
       "HEADER": {
         "title_txt": "Marinella Cooking Festival",
-        "subtitle_txt": "Fictional website of a cooking festival. For testing and educational purposes.",
+        "subtitle_txt": "Información sobre el Festival de Cocina de Marinella.",
         "NAV_main": {
           "items": [
             {
@@ -58,9 +58,78 @@
     },
 
     "PAGES": {
+
+      "DISCOVER": {
+        "label": "discover",
+        "title_txt": "Descubre el festival",
+
+        "text1_txt": "El Festival de Cocina de Marinella, un evento culinario que se celebra anualmente en la encantadora ciudad costera de Marinella, es el sueño hecho realidad de todo gourmand. Este festival nació hace una década, fruto de la colaboración entre chefs locales y entusiastas de la gastronomía, con el objetivo de poner en el mapa los sabores únicos de la región. Con el tiempo, se ha convertido en un escaparate para que los talentos emergentes y los cocineros establecidos demuestren su creatividad y maestría culinaria.",
+
+        "text2_txt": "El festival no es solo una exhibición de habilidades culinarias, sino también un concurso vibrante y participativo. Los asistentes no solo tienen el privilegio de degustar platillos exquisitos, sino que también juegan un papel crucial como jueces. Cada comensal recibe una \"moneda de sabor\" al entrar, que luego depositarán en la estación del chef cuyo plato les haya parecido sublime. Esta interacción directa entre chefs y comensales añade un sabor especial al evento, haciendo que cada edición sea impredecible y emocionante.",
+        "text2_destacado_txt": "Cada comensal recibe una 'moneda de sabor' al entrar, que luego depositarán en la estación del chef cuyo plato les haya parecido sublime.",
+
+        "text3_txt": "Los platos que se presentan son tan variados como los propios chefs: desde reinterpretaciones audaces de clásicos locales hasta innovadoras fusiones que desafían al paladar. Los ingredientes frescos, muchos de los cuales son recolectados directamente de las granjas y mares cercanos, son los protagonistas indiscutibles. A medida que el sol se pone, el festival se transforma con luces de colores y música en vivo, creando una atmósfera festiva que complementa perfectamente la experiencia culinaria.",
+        "text3_destacado_txt": "Los ingredientes frescos, muchos de los cuales son recolectados directamente de las granjas y mares cercanos, son los protagonistas indiscutibles.",
+
+        "text4_txt": "Ganar en el Festival de Cocina de Marinella es un honor codiciado, no solo por el reconocimiento sino también por el impulso que puede dar a la carrera de un chef. Más que una competencia, el festival es una celebración de la comunidad, la comida y la creatividad. Cada año, los lazos entre los participantes y visitantes se fortalecen, tejiendo historias de amistad y pasión por la cocina que duran mucho más allá del festival.",
+        "text4_destacado_txt": "Más que una competencia, el festival es una celebración de la comunidad, la comida y la creatividad.",
+
+        "PHOTO": [{
+          "file": "discover_winner",
+          "alt_txt": "Imagen de la galería 2023",
+          "caption_txt": null
+        }]
+      },
+
+      "YEAR2023" : {
+        "label": "year2023",
+        "title_txt": "Galería 2023",
+        "gallery": {
+          "PHOTO": [
+            {
+              "file": "chefs_leila_lechuga",
+              "alt_txt": "Imagen de la galería 2023",
+              "caption_txt": null
+            },
+            {
+              "file": "year2023-1",
+              "alt_txt": "Imagen de la galería 2023",
+              "caption_txt": null
+            },
+            {
+              "file": "year2023-2",
+              "alt_txt": "Imagen de la galería 2023",
+              "caption_txt": null
+            },
+            {
+              "file": "year2023-3",
+              "alt_txt": "Imagen de la galería 2023",
+              "caption_txt": null
+            },
+            {
+              "file": "year2023-4",
+              "alt_txt": "Imagen de la galería 2023",
+              "caption_txt": null
+            },
+            {
+              "file": "year2023-5",
+              "alt_txt": "Imagen de la galería 2023",
+              "caption_txt": null
+            },
+            {
+              "file": "year2023-6",
+              "alt_txt": "Imagen de la galería 2023",
+              "caption_txt": null
+            }
+          ]
+        }
+      },
+
+
+
       "CHEFS": {
         "label": "chefs",
-        "title_txt": "Lugares de interés",
+        "title_txt": "Los mejores Chefs",
         "CARD": [
           {
             "title_txt": "Carlos Cordero",

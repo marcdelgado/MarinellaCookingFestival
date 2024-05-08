@@ -16,15 +16,7 @@
 /* BASE */
 @import "base";
 
-
-/* LAYOUTS */
-@import "layouts/header-layout";
-@import "layouts/footer-layout";
-
-/* PAGES */
-@import "pages/home-page";
-@import "pages/chefs-page";
-@import "pages/year2023-page";
+/* TODO: poner el resto de imports en @layer */
 
 /* MODULES */
 @import "modules/photo";
@@ -40,6 +32,21 @@
 @import "themes/external-fonts";
 @import "themes/layout-theme";
 @import "themes/module-theme";
+@layer header-layout, main-layout, footer-layout,
+       home-page, chefs-page, year2023-page, discover-page;
+
+
+/* LAYOUTS */
+@import "layouts/header-layout";
+@import "layouts/main-layout";
+@import "layouts/footer-layout";
+
+/* PAGES */
+@import "pages/home-page";
+@import "pages/chefs-page";
+@import "pages/year2023-page";
+@import "pages/discover-page";
+
 
 
 

@@ -8,21 +8,20 @@
     <!-- PAGE CONTENT STARTS HERE -->
     <!-- ------------------------------------------------------------------- -->
 
-        <h1>awdfsag</h1>
-        <h1>awdfsag</h1>
-        <h1>awdfsag</h1>
-        <h1>awdfsag</h1>
+        <h1 class="display-3">{{{PAGES.YEAR2023.title_txt}}}</h1>
+
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
+                <each loop="photo, index in PAGES.YEAR2023.gallery.PHOTO">
+                    <div class="swiper-slide">
+                        <picture class="photo-module__picture">
+                            <each loop="size, index in params.viewports">
+                                <source media="(max-width:{{size}}px and max-height:{{size}}px)" srcset="{{params.paths.gallery}}/{{photo.file}}_{{size}}.webp">
+                            </each>
+                            <img class="photo-module__picture__img" src="{{params.paths.gallery}}/{{photo.file}}_{{params.max_resol}}.webp" alt="{{alt_txt}}">
+                        </picture>
+                    </div>
+                </each>
             </div>
             <div class="swiper-pagination"></div>
         </div>
